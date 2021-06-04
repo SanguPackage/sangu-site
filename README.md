@@ -16,6 +16,7 @@ bundle install
 
 # PRD flag
 $env:JEKYLL_ENV = "production"
+bundle exec jekyll build
 ```
 
 Using the [livereload app](http://livereload.com/) for automatic refresh
